@@ -1,6 +1,6 @@
 <template>
   <div class="hello">
-  <h1>Login with google</h1>
+  <h1>Login with google 2222</h1>
      <h1>IsInit: {{ Vue3GoogleOauth.isInit }}</h1>
   <h1>IsAuthorized: {{ Vue3GoogleOauth.isAuthorized }}</h1>
   <h2 v-if="user">signed user: {{user}}</h2>
