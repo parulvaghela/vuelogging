@@ -28,7 +28,7 @@ https://www.npmjs.com/package/vue-google-oauth2
 
 https://github.com/guruahn/vue3-google-oauth2       —------------------ vue 3
 
-
+```
 import { createApp } from 'vue'
 import App from './App.vue'
 import GAuth from 'vue3-google-oauth2'
@@ -36,4 +36,5 @@ const app = createApp(App)
 
 const gAuthOptions = { clientId: 'YOUR_CLIENT_ID', scope: 'email', prompt: 'consent', fetch_basic_profile: false }
 app.use(GAuth, gAuthOptions)
+```
 https://github.com/guruahn/vue3-google-oauth2-front-sample/ – sample code
